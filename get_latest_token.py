@@ -93,6 +93,6 @@ def get_access_token():
     return load_token()
 
 # ---------------- Example Usage ---------------- #
-# if __name__ == "__main__":
-    # access_token = get_access_token()
+if __name__ == "__main__":
+    access_token = get_access_token()
     # print("🎯 Access Token in variable:", access_token)
